@@ -5,3 +5,12 @@ image {
     max-width: 5%;
     height: auto;
   }
+
+  body {
+    background-color: rgb(225, 216, 255);
+  }
+  
+  p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+  }
