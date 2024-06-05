@@ -30,6 +30,10 @@ image {
     width: 30%;
   }
 
+  .block{
+    height: 20px;
+  }
+
   .navbar{
     box-sizing: border-box;
     position: sticky;
