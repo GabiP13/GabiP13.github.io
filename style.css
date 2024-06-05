@@ -6,12 +6,6 @@ image {
     height: auto;
   }
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
   body {
     background-color: rgb(225, 216, 255);
   }
@@ -35,6 +29,9 @@ image {
   }
 
   .navbar{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     position: sticky;
     top: 0;
     left: 0;
