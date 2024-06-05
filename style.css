@@ -7,6 +7,8 @@ image {
   }
 
   body {
+    margin: 0;
+    padding: 0;
     background-color: rgb(255, 255, 255);
   }
   
@@ -29,8 +31,6 @@ image {
   }
 
   .navbar{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
     position: sticky;
     top: 0;
