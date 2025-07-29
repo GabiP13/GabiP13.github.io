@@ -25,9 +25,12 @@ function App() {
 	const renderPage = pages[pageIndex] || pages.default
 
 	return (
-		<div className="grid grid-cols-[max-content_4fr]">
-			{auto}
-			{renderPage}
+		<div>
+			<p>test bar</p>
+			<div className="grid grid-cols-[max-content_4fr]">
+				{auto}
+				{renderPage}
+			</div>
 		</div>
 	)
 }
