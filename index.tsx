@@ -7,7 +7,7 @@ import App from './app.tsx'
 
 ReactDOM.render(
   <StrictMode><App /></StrictMode>, 
-  document.getElementById("root"));
+  document.getElementById("gabi"));
 {/* <React.StrictMode><App /></React.StrictMode>, document.getElementById("root")); */}
 // createRoot(document.getElementById('root')).render(
 //   <StrictMode>
