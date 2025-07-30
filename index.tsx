@@ -1,18 +1,11 @@
-// import { createRoot } from 'react-dom/client'
-// import './index.html'
-// import App from './app.tsx'
-
-// const root = createRoot(document.getElementById('root'));
-// root.render(<App />);
+// import React from 'react';
+import { createRoot, Root } from 'react-dom/client';
+import { app } from './old_app';
 
 
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-// import './index.css'
-import App from './app.tsx'
+const main: HTMLElement|null = document.getElementById('main');
+if (main === null)
+  throw new Error("Uh oh! HTML is missing 'main' element");
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <App />
-  </StrictMode>,
-)
+const root: Root = createRoot(main);
+root.render(app);

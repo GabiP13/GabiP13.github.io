@@ -52,7 +52,7 @@ export default function Intro() {
             
         
         
-        <!--extracurricular = harvard + imgs one on edx; that one uni ?? gamer thing??-->
+        {/* <!--extracurricular = harvard + imgs one on edx; that one uni ?? gamer thing??--> */}
         </div>
     </div>
 
