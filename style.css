@@ -140,3 +140,9 @@ image {
   html {
     scroll-behavior: smooth;
   }
+
+  .menu-left ul li {
+    display:inline-block;
+    vertical-align: top;
+    width: 30%;
+}
