@@ -1,6 +1,6 @@
 // import React from 'react';
 import { createRoot, Root } from 'react-dom/client';
-import { app } from './old_app';
+import { app } from './app';
 
 
 const main: HTMLElement|null = document.getElementById('main');
